@@ -3,7 +3,7 @@
 
 ##### We are live at [GoThere](www.gothere.tk)
 \
-Go There is a dynamic path finding and optimising application. Using parallelism at every step to ensure performace.
+Go There is a dynamic path finding and optimising application. Using parallelism at every step to ensure performance.
 Essentially providing a fast approximation to the Travelling Salesman Problem.Given a set of destinations the most
 effecient way to visit all of them is provided by it.
 
@@ -22,6 +22,7 @@ There are no third party go packages being used out of the ones in this reposito
 We use Google APIs for distance/traffic/map data, credentials need to be provided in - 
 * [```externalApi.go```](server/externalApi.go) - for using Google APIs (distance/traffic)
 * [```form.html```](public/form.html) - for using Google APIs (map)
+
 **Jenkins** and **Docker** are used for CI/CD and containerisation.
 ## Instructions
 To run the application do the following :
